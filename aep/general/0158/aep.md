@@ -150,7 +150,7 @@ When implementing offset-based pagination:
 - Request schemas for collections **must** define an integer `pageNumber` query
   parameter, allowing users to specify which page of results to return.
   - The `pageNumber` field **must not** be required and **must** default to
-    `1`.
+    `0`.
 - Request schemas for collections **must** define an integer `pageSize` query
   parameter, allowing users to specify the maximum number of results to return.
   - The `pageSize` field **must not** be required.
